@@ -1,0 +1,29 @@
+apt-get install vim
+apt-get install firmware-iwlwifi
+apt-get install xinput
+apt-get install bumblebee primus
+apt-get install i3 suckless-tools
+apt-get install build-essential
+apt-get install gdb
+apt-get -t jessie-backports install cmake cmake-curses-gui
+apt-get install valgrind
+apt-get install libqt4-dev qtbase5-dev kdevelop
+apt-get install mesa-utils
+apt-get install rxvt-unicode
+apt-get install bumblebee-nvidia
+apt-get install gtk-redshift
+apt-get install zsh
+apt-get install curl
+apt-get install git
+apt-get install ranger
+apt-get install zathura zathura-djvu zathura-ps zathura-cb
+apt-get install gdebi
+apt-get install google-talkplugin
+apt-get install goldendict
+apt-get install libboost-dev
+apt-get install qttools5-dev apt-get install qttools5-dev-tools
+apt-get install calibre
+apt-get install qt4-qtconfig
+apt-get install lxappearance
+apt-get install sxiv
+apt-get install flashplugin-nonfree
