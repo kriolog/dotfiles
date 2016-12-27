@@ -1,0 +1,6 @@
+set selection-clipboard clipboard
+set scroll-full-overlap 0.05
+#map <C-Space> scroll page up
+#map <Space> scroll page down
+#map <PageUp> scroll page up
+#map <PageDown> scroll page down 
