@@ -176,6 +176,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id redshift-gtk
 
 # Dropdown terminal
-exec --no-startup-id urxvt -name 'urxvt_scratchpad' -geometry 211x58
-for_window [instance="urxvt_scratchpad"] floating enable; move scratchpad; border 1pixel; scratchpad show; move position center; move scratchpad
-bindsym F12 [instance="urxvt_scratchpad"] scratchpad show
+exec --no-startup-id urxvt -name 'urxvt_quake'
+for_window [instance="urxvt_quake"] floating enable;
+for_window [instance="urxvt_quake"] move scratchpad; [instance="urxvt_quake"] scratchpad show; move position 0px 0px; resize grow width 1920px; resize grow height 1080px; resize shrink height 21; move scratchpad
+bindsym F12 [instance="urxvt_quake"] scratchpad show
