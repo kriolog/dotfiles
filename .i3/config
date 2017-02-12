@@ -166,6 +166,12 @@ bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
+# Display rotation
+bindsym $mod+z exec xrandr --output LVDS1 --rotate left
+bindsym $mod+c exec xrandr --output LVDS1 --rotate right
+bindsym $mod+x exec xrandr --output LVDS1 --rotate normal
+#bindsym $mod+v exec xrandr --output LVDS1 --rotate inverted
+
 # border style
 new_window pixel 1
 
