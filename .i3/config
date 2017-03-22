@@ -175,6 +175,9 @@ bindsym $mod+x exec xrandr --output LVDS1 --rotate normal; exec xinput -set-prop
 # border style
 new_window pixel 1
 
+# Compositor
+exec --no-startup-id compton 
+
 # Network Manager
 exec --no-startup-id nm-applet
 
@@ -182,6 +185,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id redshift-gtk
 
 # Dropdown terminal
+floating_maximum_size 1920 x 1080
 exec --no-startup-id urxvt -name 'urxvt_quake'
 for_window [instance="urxvt_quake"] floating enable;
 for_window [instance="urxvt_quake"] move scratchpad; [instance="urxvt_quake"] scratchpad show; move position 0px 0px; resize grow width 1920px; resize grow height 1080px; resize shrink height 21; border 1pixel; move scratchpad
