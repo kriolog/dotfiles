@@ -1,8 +1,14 @@
-xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation" 1
-xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Button" 2
-xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Timeout" 200
-xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Axes" 6 7 4 5
-xinput set-prop "TPPS/2 IBM TrackPoint" "Device Accel Constant Deceleration" 0.80
+#xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation" 1
+#xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Button" 2
+#xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Timeout" 200
+#xinput set-prop "TPPS/2 IBM TrackPoint" "Evdev Wheel Emulation Axes" 6 7 4 5
+#xinput set-prop "TPPS/2 IBM TrackPoint" "Device Accel Constant Deceleration" 0.80
+xinput set-prop "pointer:TPPS/2 IBM TrackPoint" "libinput Accel Speed" 1.0
+xinput set-prop "pointer:Lite-On Technology Corp. ThinkPad USB Keyboard with TrackPoint" "libinput Accel Speed" 1.0
+#xinput set-prop "TPPS/2 IBM TrackPoint" "libinput Natural Scrolling Enabled" 1.0
+#echo 200 > /sys/bus/serio/devices/serio1/sensitivity
+#echo 100 > /sys/bus/serio/devices/serio1/speed
+
 xset mouse 20 1
 # disable beep
 xset -b
