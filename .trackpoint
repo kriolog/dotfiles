@@ -1,0 +1,6 @@
+xinput set-prop "pointer:TPPS/2 IBM TrackPoint" "libinput Accel Speed" 1.0
+xinput set-prop "pointer:Lite-On Technology Corp. ThinkPad USB Keyboard with TrackPoint" "libinput Accel Speed" 1.0
+#xinput set-prop "TPPS/2 IBM TrackPoint" "libinput Natural Scrolling Enabled" 1.0
+#echo 200 > /sys/bus/serio/devices/serio1/sensitivity
+#echo 100 > /sys/bus/serio/devices/serio1/speed
+

@@ -167,10 +167,9 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # Display rotation
-bindsym $mod+z exec xrandr --output LVDS1 --rotate left; exec xinput -set-prop "TPPS/2 IBM TrackPoint" "Evdev Axes Swap" 1; exec xinput -set-prop "TPPS/2 IBM TrackPoint" "Evdev Axis Inversion" 1 0
-bindsym $mod+c exec xrandr --output LVDS1 --rotate right; exec xinput -set-prop "TPPS/2 IBM TrackPoint" "Evdev Axes Swap" 1; exec xinput -set-prop "TPPS/2 IBM TrackPoint" "Evdev Axis Inversion" 0 1
-bindsym $mod+x exec xrandr --output LVDS1 --rotate normal; exec xinput -set-prop "TPPS/2 IBM TrackPoint" "Evdev Axes Swap" 0; exec xinput -set-prop "TPPS/2 IBM TrackPoint" "Evdev Axis Inversion" 0 0
-#bindsym $mod+v exec xrandr --output LVDS1 --rotate inverted; exec xinput -set-prop "TPPS/2 IBM TrackPoint" "Evdev Axes Swap" 0; exec xinput -set-prop "TPPS/2 IBM TrackPoint" "Evdev Axis Inversion" 1 1
+bindsym $mod+z exec xrandr -o left
+bindsym $mod+x exec xrandr -o normal
+bindsym $mod+c exec xrandr -o right
 
 # border style
 new_window pixel 1
